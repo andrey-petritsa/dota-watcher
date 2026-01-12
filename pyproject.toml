@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dota-watcher"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Petritsa <andrey@petritsa.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+cloudscraper = "^1.2.71"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

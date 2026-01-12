@@ -1,0 +1,1 @@
+{id: '123', 'player_id': '1', 'date': 1768175700, 'duration': 1502, 'hero': 'Jakiro', 'is_win': False, 'kda': '1/5/5'}
