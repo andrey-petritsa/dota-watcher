@@ -11,6 +11,7 @@ requests = "^2.32.3"
 beautifulsoup4 = "^4.12.3"
 cloudscraper = "^1.2.71"
 python-dotenv = "^1.0.1"
+playwright = "^1.57.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^9.0.2"

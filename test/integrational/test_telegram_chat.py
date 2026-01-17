@@ -10,6 +10,7 @@ class TestTelegramChat:
 
     def test_send_message(self):
         bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
-        chat = TelegramChat(bot_token)
+        chat_id = os.getenv('TELEGRAM_CHAT_ID')
+        chat = TelegramChat(bot_token, chat_id)
         result = chat.send_message('привет')
         assert result['ok'] is True

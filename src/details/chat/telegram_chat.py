@@ -3,10 +3,10 @@ import logging
 import time
 
 class TelegramChat:
-    def __init__(self, bot_token):
+    def __init__(self, bot_token, chat_id):
         self.logger = logging.getLogger(__name__)
 
-        self.chat_id = '-4868817417'
+        self.chat_id = chat_id
         self.base_url = f"https://api.telegram.org/bot{bot_token}"
         self.responses = []
         self.max_retries = 3
